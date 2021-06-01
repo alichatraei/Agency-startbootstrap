@@ -454,8 +454,8 @@ header::after {
     width: 100%;
     background-image: url("../images/map-image.png");
     background-position: center;
-    background-size: cover;
-
+    background-size: 80%;
+    background-repeat: no-repeat;
 }
 
 .form-control {
