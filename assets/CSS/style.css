@@ -112,3 +112,36 @@ header::after {
     border-radius: .5rem;
     outline: none;
 }
+
+/* SERVICES */
+#services {
+    height: 100vh;
+    width: 100%;
+}
+
+.sectionTitle {
+    margin: 3rem 0;
+}
+
+.sectionTitle p {
+    font-family: "LinoLetterMediumItalic" !important;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+/* ICONS */
+.fas {
+    color: white;
+    font-size: 4rem;
+    background-color: #fdd032;
+    border-radius: 50%;
+    padding: 3rem;
+}
+.fa-lock{
+    font-size: 4rem;
+    padding: 3rem 3.5rem !important;
+}
+.service-details p {
+    font-size: 1.1rem;
+    font-family: "LinoLetterMediumItalic" !important;
+}
