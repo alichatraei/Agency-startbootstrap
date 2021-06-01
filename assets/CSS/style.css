@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "ConneqtRegular";
+    src: local("./assets/fonts/ConneqtRegular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lino Letter Medium Italic";
+    src: local("./assets/fonts/Lino Letter Medium Italic.otf") format('truetype');
+}
+
+@font-face {
+    font-family: 'QwitcherBychen Regular';
+    src: local('./assets/fonts/QwitcherBychen Regular.ttf') format('truetype');
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
