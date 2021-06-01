@@ -130,15 +130,19 @@ header::after {
 }
 
 /* ICONS */
-.fas {
+.fa-shopping-cart,
+.fa-laptop {
     color: white;
     font-size: 4rem;
+    padding: 3rem;
     background-color: #fdd032;
     border-radius: 50%;
-    padding: 3rem;
 }
 
 .fa-lock {
+    color: white;
+    border-radius: 50%;
+    background-color: #fdd032;
     font-size: 4rem;
     padding: 3rem 3.5rem !important;
 }
@@ -155,11 +159,49 @@ header::after {
     background-color: #F7F9FB;
 }
 
-.icon img {
-    width: 100%;
-}
 
 .portfolio-details p {
     font-size: 1.1rem;
     font-family: "LinoLetterMediumItalic" !important;
+}
+
+.portfolio-image {
+    position: relative;
+}
+
+.fa-plus {
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    background-color: #fdd032;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 5rem;
+    z-index: 2;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.fa-plus:hover {
+    opacity: 1;
+}
+
+.modal-title h6,
+.detail p {
+    font-size: 1.1rem;
+    font-family: "LinoLetterMediumItalic" !important;
+}
+
+.innerModalBody {
+    padding: 0 15rem;
+}
+
+.modalImage {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
 }
