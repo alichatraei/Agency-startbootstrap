@@ -33,6 +33,15 @@ ul>li {
     list-style-type: none;
 }
 
+.nav-colored {
+    background-color: rgb(65, 65, 65);
+    transition: background-color 1s ease;
+}
+
+.nav-transparent {
+    background-color: transparent;
+}
+
 /* anchor tag */
 .navbar-links {
     text-decoration: none;
@@ -68,6 +77,7 @@ header::after {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 120;
 }
 
 #logo {
