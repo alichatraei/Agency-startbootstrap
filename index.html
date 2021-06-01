@@ -11,31 +11,82 @@
   </head>
   <body>
     <!-- HTML CODES -->
-    <header>
+    <header
+      id="home"
+      class="d-flex justify-content-center align-items-center flex-column"
+    >
       <!-- Desktop mode -->
       <div
         class="
           container
-          d-flex
+          d-none d-md-flex
           justify-content-between
           align-items-center
           py-3
-          bg-dark
+          navbar
         "
       >
         <div class="logo">
-          <h2 id="logo">Start bootstrap</h2>
+          <a href="#home"><h2 id="logo">Start bootstrap</h2></a>
         </div>
         <nav class="w-50">
           <ul class="d-flex justify-content-between align-items-center mb-0">
-            <li><a href="#services">SERVICES</a></li>
-            <li><a href="#portfolio">PORTFOLIO</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#team">TEAM</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#services" class="navbar-links">SERVICES</a></li>
+            <li><a href="#portfolio" class="navbar-links">PORTFOLIO</a></li>
+            <li><a href="#about" class="navbar-links">ABOUT</a></li>
+            <li><a href="#team" class="navbar-links">TEAM</a></li>
+            <li><a href="#contact" class="navbar-links">CONTACT</a></li>
           </ul>
         </nav>
       </div>
+      <!-- Mobile mode -->
+      <div class="w-100 d-md-none navbar">
+        <nav
+          class="
+            navbar navbar-expand-md navbar-light
+            bg-transparent
+            d-flex
+            justify-content-center
+          "
+        >
+          <div class="row w-100 justify-content-center align-items-center">
+            <a class="navbar-brand col-9" href="#Home"
+              ><h2 id="logo-mobile">Start bootstrap</h2></a
+            >
+
+            <button
+              class="navbar-toggler col-2 py-2 px-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              MENU
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse w-100 bg-dark p-3"
+              id="navbarNavAltMarkup"
+            >
+              <div class="navbar-nav">
+                <a class="nav-link text-white" href="#services">SERVICES</a>
+                <a class="nav-link text-white" href="#portfolio">PORTFOLIO</a>
+                <a class="nav-link text-white" href="#about">ABOUT</a>
+                <a class="nav-link text-white" href="#team">TEAM</a>
+                <a class="nav-link text-white" href="#contact">CONTACT</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Titles -->
+      <div id="welcome" class="text-white"><h4>Welcome to our studio!</h4></div>
+      <div id="message-text" class="text-white">
+        <h2>IT'S NICE TO MEET YOU</h2>
+      </div>
+      <div id="tellMeMore" class="mt-5"><button>TELL ME MORE</button></div>
     </header>
     <!-- LOAD JS FILES -->
     <script src="./assets/JS/bootstrap.bundle.min.js"></script>
