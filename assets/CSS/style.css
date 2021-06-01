@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "ConneqtRegular";
-    src: url("../fonts/ConneqtRegular.ttf") format("truetype");
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "LinoLetterMediumItalic";
-    src: local("../fonts/LinoLetterMediumItalic.otf") format('otf');
+    font-family: "RobotoSlab-Regula";
+    src: url("../fonts/RobotoSlab-Regular.ttf") format('ttf');
 }
 
 @font-face {
@@ -24,7 +24,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "ConneqtRegular";
+    font-family: "Montserrat-Regular";
 }
 
 /* Global styles */
@@ -94,7 +94,7 @@ header::after {
 }
 
 #welcome h4 {
-    font-family: "LinoLetterMediumItalic";
+    font-family: "RobotoSlab-Regula";
     font-style: italic;
     font-size: 2rem;
 }
@@ -124,7 +124,7 @@ header::after {
 }
 
 .sectionTitle p {
-    font-family: "LinoLetterMediumItalic" !important;
+    font-family: "RobotoSlab-Regula" !important;
     font-size: 1.1rem;
     font-style: italic;
 }
@@ -149,7 +149,7 @@ header::after {
 
 .service-details p {
     font-size: 1.1rem;
-    font-family: "LinoLetterMediumItalic" !important;
+    font-family: "RobotoSlab-Regula" !important;
 }
 
 /* PORTFOLIO */
@@ -162,7 +162,7 @@ header::after {
 
 .portfolio-details p {
     font-size: 1.1rem;
-    font-family: "LinoLetterMediumItalic" !important;
+    font-family: "RobotoSlab-Regula" !important;
 }
 
 .portfolio-image {
@@ -193,7 +193,7 @@ header::after {
 .modal-title h6,
 .detail p {
     font-size: 1.1rem;
-    font-family: "LinoLetterMediumItalic" !important;
+    font-family: "RobotoSlab-Regula" !important;
 }
 
 .innerModalBody {
@@ -328,6 +328,11 @@ header::after {
 .timeline .timeline-body>ul,
 .timeline .timeline-body>p {
     margin-bottom: 0;
+}
+
+.section-subheading,
+.text-muted {
+    font-family: "RobotoSlab-Regula";
 }
 
 @media (min-width: 768px) {
