@@ -441,3 +441,9 @@ header::after {
     border-radius: 50%;
     border: .3rem solid #ccc;
 }
+
+#clients {
+    min-width: 10vh;
+    width: 100%;
+    background-color: #fff;
+}
