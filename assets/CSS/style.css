@@ -105,7 +105,8 @@ header::after {
     text-align: center;
 }
 
-#tellMeMore button {
+#tellMeMore button,
+.button {
     color: white;
     background-color: #fdd032;
     padding: 1.6rem 2rem;
@@ -446,4 +447,21 @@ header::after {
     min-width: 10vh;
     width: 100%;
     background-color: #fff;
+}
+
+#contact {
+    min-height: 50vh;
+    width: 100%;
+    background-image: url("../images/map-image.png");
+    background-position: center;
+    background-size: cover;
+
+}
+
+.form-control {
+    height: 4rem;
+}
+
+#message {
+    height: 14rem !important;
 }
